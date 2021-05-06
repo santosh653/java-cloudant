@@ -20,7 +20,7 @@
 export REPO=https://github.com/cloudant/java-cloudant
 
 if [ -z "$1" ]; then
-  export VERSION="rel/2.19.2"
+  export VERSION="2.19.2"
 else
   export VERSION="$1"
 fi
